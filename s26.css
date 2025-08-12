@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('https://cdn1.vectorstock.com/i/1000x1000/19/45/tic-tac-toe-game-linear-outline-icon-neon-style-vector-28341945.jpg');
+  text-align: center;
+}
+
+h1{
+  color:white;
+}
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 8vmin;
+  color: #b0413e;
+  background-color: #18162b;
+}
+
+#reset-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+}
+
+#new-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+}
+
+#msg {
+ width: 300px;
+  height: 90px;
+  padding: 20px;
+  margin: 30px;
+  background-color: rgb(11, 19, 39);
+  border:2px;
+  border-radius: 10px;
+  font-size: 38px;
+  color: rgb(252, 252, 255);
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+}
+
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
+}
